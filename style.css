@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Mono");
+
+body {
+    margin-top: 1em;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    padding: 0.5em;
+    border: 1px solid;
+    border-color: rgba(75, 75, 75, 1.00);
+    background-color: #111111;
+    color: rgba(222, 222, 222, 1.00);
+    font-family: "IBM Plex Sans", Roboto, Calibri, Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: rgba(106, 152, 175, 1.00);
+}
+    
+a:visited {
+    color: rgba(166, 121, 210, 1.00);
+}
+
+.theblueguy {
+    background-color: #222222;
+    margin: -0.5em;
+    padding: 0.5em;
+}
+
+h1 {
+    font-size: 36pt;
+    line-height: 1em;
+}
+
+h2, h3 {
+    padding-top: 21px;
+    font-size: 15pt;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+hr {
+    border: 1px gray solid;
+}
+
+.text {
+    text-align: justify;
+    font-size: 12pt;
+    line-height: 1.5em;
+}
+
+ul {
+    padding-right: 1em;
+}
+
+.towerofpisa {
+    font-style: italic;
+}
+
+.titanic {
+    float: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#bottom, figcaption {
+    font-size: 9pt;
+    /* font-style: oblique;
+    color: dimgray; */
+    text-align: left;
+}
+
+#bottom {
+    margin-top: 3em;
+    font-style: normal;
+}
+
+.pre, pre, code {
+    font-family: "IBM Plex Mono", monospace;
+}
+
+nav ul li {
+    padding: .5em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        left: 0;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 24pt;
+        text-align: center;
+    }
+    h2, h3 {
+        font-size: 12pt;
+    }
+    .text {
+        font-size: 9pt;
+    }
+    #bottom, .ad {
+        font-size: 8pt;
+    }
+}
