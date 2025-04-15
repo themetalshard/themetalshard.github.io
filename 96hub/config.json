@@ -1,0 +1,39 @@
+{
+    "pages": [
+        {
+            "id": "starting-page",
+            "location": "https://th3blueguy.github.io/96hub/pages/starting-page.html"
+        },
+        {
+            "id": "test-page",
+            "location": "https://th3blueguy.github.io/96hub/pages/test-page.html"
+        }
+    ],
+    "sidebar": [
+        {
+            "name": "WELCOME",
+            "items": [
+                {
+                    "name": "Starting page",
+                    "target": {
+                        "type": "page",
+                        "location": "starting-page"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "OTHER THINGS",
+            "items": [
+                {
+                    "name": "Test page",
+                    "target": {
+                        "type": "page",
+                        "location": "test-page"
+                    }
+                }
+            ]
+        }
+    ],
+    "startPage": "starting-page"
+}
